@@ -1,0 +1,13 @@
+let table = [
+  { nome: "Zé da mandioca", idade: 22, profissao: "padeiro", dinheiro: 4000},
+  { nome: "Zé da batata", idade: 42, profissao: "pedreiro", dinheiro: 8000},
+  { nome: "Zé da feijoada", idade: 35, profissao: "marcineiro", dinheiro: 3500},
+  { nome: "Zé do pepino", idade: 21, profissao: "gogo boy", dinheiro: 5000}
+]
+const valor=0;
+for(const a in table){
+  if(profissao[a]=="pedreiro"){
+    const valor +1;
+  }
+}
+console.log(valor)
